@@ -2,20 +2,33 @@
     <head>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1">
-        <title>Stray Care</title>
+        <title>TailsOfTails</title>
+
+         <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
          <header>
-             <h1 class="logo">Stray Care</h1>
+             <h1 class="logo">Tails Of Tails</h1>
              <nav>
                  <ul>
-                   <li><a href="">Home</a></li>
-                   <li><a href="">About</a></li>
-                   <li><a href="">Contacts</a></li>  
+                   <li><a href="">Adoption</a></li>
+                   <li><a href="">Blog</a></li>
+                   <li><a href="">Volunteer</a></li>  
                  </ul>
              </nav>
          </header>
+         <main>
          <section class="home-hero">
              <div class="container">
              <h1 class="title">For the pawsitivity you need!
@@ -41,8 +54,58 @@
          </section>
         </div>
 
+        
+        <!---------------- Blog Carousel ------------------>
+
+        <section>
+            <div class="blog" id="projects">
+                <div class="container">
+                    <h1 class="section-heading">Adoptions</h1>
+                    <div class="owl-carousel owl-theme blog-post">
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./img/ngo-dog1.jpg" alt="post-1">
+                            <div class="blog-title">
+                                <h3>Dog1</h3>
+                                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, itaque.</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-in" data-aos-delay="200">
+                            <img src="./img/ngo-dog2.jpg" alt="post-2">
+                            <div class="blog-title">
+                                <h3>Dog2</h3>
+                               
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, enim.</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-left" data-aos-delay="200">
+                            <img src="./img/ngo-dog3.jpg" alt="post-3">
+                            <div class="blog-title">
+                                <h3>Dog3</h3>
+                            
+                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                            </div>
+                        </div>
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
+                            <img src="./img/ngo-dog4.jpg" alt="post-4">
+                            <div class="blog-title">
+                                <h3>Dog4</h3>
+                            
+                                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------x---------- Blog Carousel --------x---------->
+
          <section class="portfolio">
-             <h1 class="port-head">Some of our work</h1>
+             <h1 class="port-head">Blogs</h1>
             <!-- portfolio item 1 --> 
              <figure class="port-item">
                <img src="img/ngo-dog1.jpg" alt="portfolio item">
@@ -110,6 +173,8 @@
                 </div>
         </section>
 
+    </main>
+
          <footer>
              <div class="container">
              <div class="col-3">
@@ -148,5 +213,19 @@
                   </div>
                   </div>
          </footer>
+
+
+
+          <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
     </body>
 </html>
